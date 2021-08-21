@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+input, button{
+  color: black;
+  padding: 20px;
+  font-size: 25px;
+  border: none;
+  outline: none;
+}
+
+button:focus,input:focus{
+  outline: none;
+  border: none;
+}
+
+button{
+  cursor: pointer;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: rgb(138, 253, 253);
+}
+
+button:hover{
+  background-color: rgb(129, 211, 211);
+  transition: 0.3s linear;
+}
+
+input{
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+
+body{
+  background: url('https://i.pinimg.com/originals/a4/8c/5c/a48c5c6d31119800605ef0de228e4631.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+.weatherInfo{
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.weatherStuff{
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  font-size: 50px;
+  padding: 20px;
+  text-shadow: 3px 6px rgb(50, 50, 75, 0.2);
+}
+
+.temp{
+  font-size: 150px;
+  width: 500px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  color: rgb(138, 253, 253);
+  background: rgb(255, 255, 255, 0.2);
+  border-radius: 16px;
+  text-shadow: 3px 6px rgb(50, 50, 75, 0.2);
+  box-shadow: 3x 6px rgb(0, 0, 0, 0.2);
+}
+
+.location{
+  font-size: 40px;
+  text-shadow: 3px 6px rgb(50, 50, 75, 0.2);
+  margin-top: 30px;
+}
+
+.errMessage{
+  font-size: 40px;
+  text-shadow: 3px 6px rgb(50, 50, 75, 0.2);
+  margin-top: 30px;
+}
